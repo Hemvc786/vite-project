@@ -88,7 +88,7 @@ export default function App() {
     </div>
   );
 }
-
+// friendList comp
 function FriendsList({ friends, onSelection, selectedFriend }) {
   return (
     <ul>
