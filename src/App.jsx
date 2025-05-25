@@ -78,7 +78,6 @@ export default function App() {
           {showAddFriend ? "close" : "Add Friend"}
         </Button>
       </div>
-
       {selectedFriend && (
         <FormSplitBill
           selectedFriend={selectedFriend}
@@ -86,6 +85,7 @@ export default function App() {
           key={selectedFriend.id}
         />
       )}
+      //s
     </div>
   );
 }
